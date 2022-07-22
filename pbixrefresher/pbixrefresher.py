@@ -66,7 +66,7 @@ def main():
 	print("Saving")
 	type_keys("%1", win)
 	#wait_win_ready(win)
-	time.sleep(5)
+	time.sleep(10)
 	win.wait("enabled", timeout = REFRESH_TIMEOUT)
 
 	# Publish
